@@ -1,14 +1,14 @@
-# NUQSGD: Improved Communication Efficiency for Data-parallel SGD via Nonuniform Quantization
+# NUQSGD: Provably Communication-efficient Data-parallel SGD via Nonuniform Quantization
 
-Code for quantization methods from
-**[NUQSGD: Improved Communication Efficiency for Data-parallel SGD via Nonuniform Quantization](https://arxiv.org/abs/1908.06077)**
-*, A. Ramezani-Kebrya, F. Faghri, Roy D. M., arXiv preprint arXiv:1908.06077, 2019*
+Code for quantization methods of the paper:
+
+*Ramezani-Kebrya, A., Faghri, F., Markov, I., Aksenov, V., Alistarh, D., & Roy, D. M. (2021). **[NUQSGD: Provably Communication-efficient Data-parallel SGD via Nonuniform Quantization](https://jmlr.org/papers/v22/20-255.html)**. Journal of Machine Learning Research, 22(114), 1-43.*
 
 ## Dependencies
 We recommend using Anaconda to install the following packages,
 
 * Python 3.7.1
-* [PyTorch](http://pytorch.org/) (>1.1.0)
+* [PyTorch](http://pytorch.org/) (>=1.1.0)
 
 ## Cuda kernel installation
 
@@ -27,15 +27,15 @@ described using a function in the `grid/nuq.py` file.
 
 If you found this code useful, please cite the following paper:
 
-    @misc{ramezanikebrya2019nuqsgd,
-      title={{NUQSGD}: Improved Communication Efficiency for Data-parallel SGD 
-      via Nonuniform Quantization},
-      author={Ramezani-Kebrya, Ali and Faghri, Fartash and Roy, Daniel M.},
-      url={https://github.com/fartashf/nuqsgd},
-      archivePrefix={arXiv},
-      eprint={1908.06077},
-      primaryClass={cs},
-      year={2019}
+    @article{ramezanikebrya2019nuqsgd,
+      author  = {Ali Ramezani-Kebrya and Fartash Faghri and Ilya Markov and Vitalii Aksenov and Dan Alistarh and Daniel M. Roy},
+      title   = {{NUQSGD}: Provably Communication-efficient Data-parallel SGD via Nonuniform Quantization},
+      journal = {Journal of Machine Learning Research},
+      year    = {2021},
+      volume  = {22},
+      number  = {114},
+      pages   = {1-43},
+      url     = {http://jmlr.org/papers/v22/20-255.html}
     }
 
 ## License
